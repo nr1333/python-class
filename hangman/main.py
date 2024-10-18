@@ -21,4 +21,10 @@ if __name__ == "__main__":
 
     print(f"word {word}")
 
+    #open dictionary for read ing and output all the contents 
+    dictionary = open("dictionary.txt", "r")
+    for i in range(5): 
+        print(dictionary.readline())
+
+
 
