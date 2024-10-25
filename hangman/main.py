@@ -12,7 +12,7 @@ if __name__ == "__main__":
     number_of_guesses = input("How many guesses would you like to have?: ")
 
     print(f"\nYou have {number_of_guesses} left.")
-    print("Used letteers: ")
+    print("Used letters: ")
 
     word = []
     word_length = int(word_length)
@@ -26,5 +26,9 @@ if __name__ == "__main__":
     for i in range(5): 
         print(dictionary.readline())
 
+    #open a certain line in dictionary file
+    dictionary = open("dictionary.txt", "r")
+    for i in range():
+        print
 
 

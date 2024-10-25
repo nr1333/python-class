@@ -6,3 +6,9 @@ while lots_of_numbers < 10:
     print(lots_of_numbers)
     lots_of_numbers += 1
 
+
+print("*******************************")
+
+for i in range(10):
+    print(i)
+
