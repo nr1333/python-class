@@ -1,4 +1,21 @@
+def quadratic():
+    # ax**2 + bx + c 
 
+    a = input("enter 'a': ")
+    b = input("enter 'b': ")
+    c = input("enter 'c': ")
+    x = input("enter the first'x': ")
+    x2 = input("enter the second 'x': ")
+    a = int(a)
+    b = int(b)
+    c = int(c)
+    x = int(x)
+    x2 = int(x2)
+
+calculation = ax**2 + bx + c
+print(calculation)
+
+answer =
 def linear_equation():
     print("Linear Equation")
 
